@@ -1,0 +1,11 @@
+
+def convertir_mayusculas():
+    print("Convertir texto a mayúsculas")
+
+    texto = input("Ingresa un texto: ")
+
+    print("\nResultados:")
+    print("Texto original:", texto)
+    print("Texto en mayúsculas:", texto.upper())
+
+convertir_mayusculas()
