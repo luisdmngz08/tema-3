@@ -1,0 +1,15 @@
+
+def verificar_palindromo():
+    print("Verificar palíndromo")
+
+    palabra = input("Ingresa una palabra o frase: ").lower()
+    palabra = palabra.replace(" ", "")
+
+    print("\nResultados:")
+
+    if palabra == palabra[::-1]:
+        print("Es un palíndromo.")
+    else:
+        print("No es un palíndromo.")
+
+verificar_palindromo()
