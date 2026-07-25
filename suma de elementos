@@ -1,0 +1,9 @@
+
+numeros = [10, 20, 30, 40, 50]
+
+suma_total = 0
+for num in numeros:
+    suma_total += num
+
+print(f"Lista: {numeros}")
+print(f"La suma de los elementos es: {suma_total}")
