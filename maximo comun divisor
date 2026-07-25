@@ -1,0 +1,21 @@
+
+def calcular_mcd():
+    print("Máximo Común Divisor")
+
+    try:
+        num1 = int(input("Ingresa el primer número: "))
+        num2 = int(input("Ingresa el segundo número: "))
+
+        a = num1
+        b = num2
+
+        while b != 0:
+            a, b = b, a % b
+
+        print("\nResultados:")
+        print(f"El MCD de {num1} y {num2} es: {a}")
+
+    except ValueError:
+        print("Error: Debes ingresar números enteros.")
+
+calcular_mcd()
