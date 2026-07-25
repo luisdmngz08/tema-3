@@ -1,0 +1,15 @@
+
+def reemplazar_caracter():
+    print("Reemplazar un carácter")
+
+    texto = input("Ingresa un texto: ")
+    viejo = input("Carácter que deseas reemplazar: ")
+    nuevo = input("Nuevo carácter: ")
+
+    resultado = texto.replace(viejo, nuevo)
+
+    print("\nResultados:")
+    print("Texto original:", texto)
+    print("Texto modificado:", resultado)
+
+reemplazar_caracter()
